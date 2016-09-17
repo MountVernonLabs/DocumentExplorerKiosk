@@ -1,0 +1,285 @@
+{
+  "title": "Document Explorer",
+  "logo": "images/si-logo-cond_reverse_poster_.png",
+  "documents": [
+    {
+      "name": "1799 List of Enslaved People at Mount Vernon",
+      "thumbnail": "images/A 1799 list/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/A 1799 list/DA_000100_001_A-366-65.jpg"
+        },
+        {
+          "image": "images/A 1799 list/DA_000100_002_A-366-65.jpg"
+        },
+        {
+          "image": "images/A 1799 list/DA_000100_003_A-366-65.jpg"
+        },
+        {
+          "image": "images/A 1799 list/DA_000100_004_A-366-65.jpg"
+        },
+        {
+          "image": "images/A 1799 list/DA_000100_005_A-366-65.jpg"
+        },
+        {
+          "image": "images/A 1799 list/DA_000100_006_A-366-65.jpg"
+        },
+        {
+          "image": "images/A 1799 list/DA_000100_007_A-366-65.jpg"
+        },
+        {
+          "image": "images/A 1799 list/DA_000100_008_A-366-65.jpg"
+        }
+      ]
+    },
+    {
+      "name": "1799 List of People Rented from Mrs. French",
+      "thumbnail": "images/B Mrs French list/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/B Mrs French list/DA_000106_003_RM-1195.jpg"
+        },
+        {
+          "image": "images/B Mrs French list/DA_000106_004_RM-1195.jpg"
+        },
+        {
+          "image": "images/B Mrs French list/DA_000106_005_RM-1195.jpg"
+        },
+        {
+          "image": "images/B Mrs French list/DA_000106_006_RM-1195.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Division of the Dower Slaves, 1802",
+      "thumbnail": "images/C Division of Dower Slaves 1802/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/C Division of Dower Slaves 1802/DA_000704_001_PeterArchives_SlaveList.jpg"
+        },
+        {
+          "image": "images/C Division of Dower Slaves 1802/DA_000704_002_PeterArchives_SlaveList.jpg"
+        },
+        {
+          "image": "images/C Division of Dower Slaves 1802/DA_000704_003_PeterArchives_SlaveList.jpg"
+        },
+        {
+          "image": "images/C Division of Dower Slaves 1802/DA_000704_004_PeterArchives_SlaveList.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Mount Vernon Farm Report, August 10, 1793",
+      "thumbnail": "images/D Weekly Report Aug 10 1793/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/D Weekly Report Aug 10 1793/DA_000877_001_A-823.jpg"
+        },
+        {
+          "image": "images/D Weekly Report Aug 10 1793/DA_000877_002_A-823.jpg"
+        },
+        {
+          "image": "images/D Weekly Report Aug 10 1793/DA_000877_003_A-823.jpg"
+        },
+        {
+          "image": "images/D Weekly Report Aug 10 1793/DA_000877_004_A-823.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Mount Vernon Carpenters' Report, March 23, 1793",
+      "thumbnail": "images/E Carpenters Report March 23 1793/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/E Carpenters Report March 23 1793/DA_000707_001_A-283-98.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Mount Vernon Spinning Report, August 10, 1793",
+      "thumbnail": "images/F Spinning Report Aug 10 1793/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/F Spinning Report Aug 10 1793/DA_000803_A-283-102.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Mount Vernon Gardener's Report, January 12, 1793",
+      "thumbnail": "images/G Gardeners Report 12 Jan 1793/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/G Gardeners Report 12 Jan 1793/DA_000706_001_A-283-90.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Anthony Whitting to George Washington, January 16, 1793",
+      "thumbnail": "images/H Anthony Whitting Jan 1793/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/H Anthony Whitting Jan 1793/DA_000802_001_A-301-147.jpg"
+        },
+        {
+          "image": "images/H Anthony Whitting Jan 1793/DA_000802_002_A-301-147.jpg"
+        },
+        {
+          "image": "images/H Anthony Whitting Jan 1793/DA_000802_003_A-301-147.jpg"
+        },
+        {
+          "image": "images/H Anthony Whitting Jan 1793/DA_000802_004_A-301-147.jpg"
+        },
+        {
+          "image": "images/H Anthony Whitting Jan 1793/DA_000802_005_A-301-147.jpg"
+        },
+        {
+          "image": "images/H Anthony Whitting Jan 1793/DA_000802_006_A-301-147.jpg"
+        },
+        {
+          "image": "images/H Anthony Whitting Jan 1793/DA_000802_007_A-301-147.jpg"
+        },
+        {
+          "image": "images/H Anthony Whitting Jan 1793/DA_000802_008_A-301-147.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Maryland Gazette advertisement, 1761",
+      "thumbnail": "images/I 1761 ad/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/I 1761 ad/RM-1211_MarylandGazetteAdvertisement_1761Aug20_pg3.jpg"
+        }
+      ]
+    },
+    {
+      "name": "George Washington to David Stuart, February 7, 1796",
+      "thumbnail": "images/J GW to David Stuart Feb 7 1796/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/J GW to David Stuart Feb 7 1796/DA_000876_001_A-508.jpg"
+        },
+        {
+          "image": "images/J GW to David Stuart Feb 7 1796/DA_000876_002_A-508.jpg"
+        },
+        {
+          "image": "images/J GW to David Stuart Feb 7 1796/DA_000876_003_A-508.jpg"
+        },
+        {
+          "image": "images/J GW to David Stuart Feb 7 1796/DA_000876_004_A-508.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Advertisement in Columbian Centinel, 1796",
+      "thumbnail": "images/K 1796 ad/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/K 1796 ad/Columbian Centinel_1796Mar26_pg4_advertisement_detail_RM-1072_News-5714.jpg"
+        }
+      ]
+    },
+    {
+      "name": "George Washington to Robert Lewis, August 17, 1799",
+      "thumbnail": "images/L GW to Robert Lewis, 17 Aug 1799/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/L GW to Robert Lewis, 17 Aug 1799/DA_000879_001_A-734-3.jpg"
+        },
+        {
+          "image": "images/L GW to Robert Lewis, 17 Aug 1799/DA_000879_002_A-734-3.jpg"
+        },
+        {
+          "image": "images/L GW to Robert Lewis, 17 Aug 1799/DA_000879_003_A-734-3.jpg"
+        },
+        {
+          "image": "images/L GW to Robert Lewis, 17 Aug 1799/DA_000879_004_A-734-3.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Richard Allen's eulogy for George Washington",
+      "thumbnail": "images/M Richard Allen eulogy/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/M Richard Allen eulogy/SC_2016_010_001_AllenEulogy_pg1.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Martha Washington to Fanny Bassett Washington",
+      "thumbnail": "images/N MW to Fanny 29 Aug 1791/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/N MW to Fanny 29 Aug 1791/DA_000199_001_A-680.jpg"
+        },
+        {
+          "image": "images/N MW to Fanny 29 Aug 1791/DA_000199_002_A-680.jpg"
+        },
+        {
+          "image": "images/N MW to Fanny 29 Aug 1791/DA_000199_003_A-680.jpg"
+        },
+        {
+          "image": "images/N MW to Fanny 29 Aug 1791/DA_000199_004_A-680.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Receipt for payment to Davy Gray, January 12, 1801",
+      "thumbnail": "images/O Davy Gray receipt/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/O Davy Gray receipt/DA_000889_PeterFamilyCollection_DavyGray.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Receipt for payment to George Smith, January 12, 1803",
+      "thumbnail": "images/P George Smith receipt/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/P George Smith receipt/DI-1170-1_ThomasPeter_36_02.jpg"
+        }
+      ]
+    },
+    {
+      "name": "James Craik's Account with George Washington, 1797–1799",
+      "thumbnail": "images/Q Dr Craik account/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/Q Dr Craik account/DA_000705_001_H-1197.jpg"
+        },
+        {
+          "image": "images/Q Dr Craik account/DA_000705_002_H-1197.jpg"
+        },
+        {
+          "image": "images/Q Dr Craik account/DA_000705_003_H-1197.jpg"
+        },
+        {
+          "image": "images/Q Dr Craik account/DA_000705_004_H-1197.jpg"
+        },
+        {
+          "image": "images/Q Dr Craik account/DA_000705_005_H-1197.jpg"
+        },
+        {
+          "image": "images/Q Dr Craik account/DA_000705_006_H-1197.jpg"
+        },
+        {
+          "image": "images/Q Dr Craik account/DA_000705_007_H-1197.jpg"
+        },
+        {
+          "image": "images/Q Dr Craik account/DA_000705_008_H-1197.jpg"
+        }
+      ]
+    },
+    {
+      "name": "List of enslaved people escaped from Mount Vernon, 1781",
+      "thumbnail": "images/R 1781 Runaway list/thumb.jpg",
+      "pages": [
+        {
+          "image": "images/R 1781 Runaway list/CT-6739-3_MS-5084_RM-770.jpg"
+        }
+      ]
+    }
+  ]
+}

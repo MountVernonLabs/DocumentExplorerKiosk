@@ -85,6 +85,26 @@ body {
   margin-right: 10px;
 }
 
+.pages {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 15px;
+  background-color: #36302A;
+  z-index: 9999;
+  width: 100%;
+  padding: 10px;
+  display: none;
+}
+
+.pages span {
+  width: auto;
+  margin-right: 10px;
+  cursor: pointer;
+  background: #6C6054;
+  padding: 2px 7px;
+}
+
 .imagepan {
   width: 100%;
   height: 100%;

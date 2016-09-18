@@ -2,8 +2,13 @@
 function loadDoc(id){
   $("#shelfcontainer").hide();
   $("#doc"+id).show();
+  $("#pages"+id).show();
 }
 
+function loadPage(doc,page){
+  $(".imagepan").hide();
+  $("#doc_"+doc+"_"+page).show();
+}
 
 $( document ).ready(function() {
 
@@ -23,13 +28,14 @@ $( document ).ready(function() {
       $("#shelf").append('<div onclick="loadDoc('+doc_count+')"><img src="'+dval.thumbnail+'"><p>'+dval.name+'</p><span class="link">View Document</span></div>');
 
       // Set the document container
-      $("#content").append('<div id="doc'+doc_count+'" class="document"><div id="pages'+doc_count+'"></div>');
+      $("#content").append('<div id="doc'+doc_count+'" class="document"><div id="pages'+doc_count+'" class="pages">Page: </div>');
 
       // Populate the pages
       var page_count = 0;
       $.each( dval.pages, function( pkey, pval ) {
         page_count = page_count + 1;
-        $("#doc"+doc_count).append('<div class="imagepan"><img src="'+pval.image+'"></div>')
+        $("#doc"+doc_count).append('<div id="doc_'+doc_count+'_'+page_count+'" class="imagepan"><img src="'+pval.image+'"></div>')
+        $("#pages"+doc_count).append('<span onclick="loadPage('+doc_count+','+page_count+')">'+page_count+'</span>')
       });
 
       $(".imagepan > img").annotatorPro({
@@ -38,7 +44,7 @@ $( document ).ready(function() {
           navigatorImagePreview : true,
           fullscreen : true,
           frameWidth : "100%",
-          frameHeight : "85%"
+          frameHeight : "80%"
       });
     });
   });

@@ -71,10 +71,10 @@ body {
 }
 
 #shelf div {
-  width: 300px;
+  width: 380px;
   height: 125px;
   overflow: hidden;
-  padding: 20px;
+  padding: 10px;
   float: left;
 }
 
@@ -99,10 +99,10 @@ body {
 
 .pages span {
   width: auto;
-  margin-right: 10px;
+  margin-left: 10px;
   cursor: pointer;
   background: #6C6054;
-  padding: 2px 7px;
+  padding: 2px 9px;
 }
 .pages span.active {
   background: #D9852D;

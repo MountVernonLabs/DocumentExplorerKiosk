@@ -4,6 +4,7 @@ function loadDoc(id){
   $("#doc"+id).show();
   $("#pages"+id).show();
   loadPage(id,1);
+  $("#title").html($("#title_"+id).text());
 }
 
 function loadPage(doc,page){
@@ -17,6 +18,8 @@ $( document ).ready(function() {
 
   // Build the HTML
   $.getJSON( "documents.json", function( data ) {
+
+    window.apptitle = data.title;
     // Branding
     $("#logo").append('<img src="' + data.logo + '">');
     $("#title").append(data.title);
@@ -28,7 +31,7 @@ $( document ).ready(function() {
       doc_count = doc_count + 1;
 
       // Set the card
-      $("#shelf").append('<div onclick="loadDoc('+doc_count+')"><img src="'+dval.thumbnail+'"><p>'+dval.name+'</p><span class="link">View Document</span></div>');
+      $("#shelf").append('<div onclick="loadDoc('+doc_count+')"><img src="'+dval.thumbnail+'"><p id="title_'+doc_count+'">'+dval.name+'</p><span class="link">View Document</span></div>');
 
       // Set the document container
       $("#content").append('<div id="doc'+doc_count+'" class="document"><div id="pages'+doc_count+'" class="pages">Page: </div>');
@@ -57,6 +60,7 @@ $( document ).ready(function() {
   $( ".home" ).bind( "click", function() {
     $("#shelfcontainer").show();
     $(".document").hide();
+    $("#title").html(apptitle);
   });
 
 

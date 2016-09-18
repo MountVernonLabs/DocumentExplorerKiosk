@@ -116,3 +116,38 @@ body {
 .document {
   /* display: none; */
 }
+
+/* Fonts */
+
+#title {
+  font-family: trajan-pro-3, sans-serif;
+  font-weight: 400;
+  color: #A2988F;
+  font-size: 20px;
+}
+
+#shelf p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 13px;
+  color: #E3E0DA;
+  height: 55px;
+}
+
+#shelf span {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 4px solid #f0b336;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.pages {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #A2988F;
+}
+
+.pages span {
+  color: #fff;
+}

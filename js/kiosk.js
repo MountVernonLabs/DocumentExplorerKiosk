@@ -3,11 +3,14 @@ function loadDoc(id){
   $("#shelfcontainer").hide();
   $("#doc"+id).show();
   $("#pages"+id).show();
+  loadPage(id,1);
 }
 
 function loadPage(doc,page){
   $(".imagepan").hide();
+  $(".pages span").removeClass("active");
   $("#doc_"+doc+"_"+page).show();
+  $("#pageno"+doc+"_"+page).addClass("active");
 }
 
 $( document ).ready(function() {
@@ -35,7 +38,7 @@ $( document ).ready(function() {
       $.each( dval.pages, function( pkey, pval ) {
         page_count = page_count + 1;
         $("#doc"+doc_count).append('<div id="doc_'+doc_count+'_'+page_count+'" class="imagepan"><img src="'+pval.image+'"></div>')
-        $("#pages"+doc_count).append('<span onclick="loadPage('+doc_count+','+page_count+')">'+page_count+'</span>')
+        $("#pages"+doc_count).append('<span id="pageno'+doc_count+'_'+page_count+'" onclick="loadPage('+doc_count+','+page_count+')">'+page_count+'</span>')
       });
 
       $(".imagepan > img").annotatorPro({

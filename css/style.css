@@ -104,6 +104,9 @@ body {
   background: #6C6054;
   padding: 2px 7px;
 }
+.pages span.active {
+  background: #D9852D;
+}
 
 .imagepan {
   width: 100%;
